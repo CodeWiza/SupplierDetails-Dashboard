@@ -45,13 +45,13 @@ with st.expander(label="Select Recommendation Parameters", expanded=True):
 st.sidebar.image("https://raw.githubusercontent.com/CodeWiza/PriceBenchmarking-Dashboard/main/logo.png", use_column_width=True)
 
 # Load JSON files
-with open('C:\Devanshi_Padhy_New\My Projects\EaseworkAI\Supply Chain Dashboard\\1.json', 'r') as f:
+with open('1.json', 'r') as f:
     data1 = json.load(f)
 
-with open('C:\Devanshi_Padhy_New\My Projects\EaseworkAI\Supply Chain Dashboard\\2.json', 'r') as f:
+with open('2.json', 'r') as f:
     data2 = json.load(f)
 
-with open('C:\Devanshi_Padhy_New\My Projects\EaseworkAI\Supply Chain Dashboard\\3.json', 'r') as f:
+with open('3.json', 'r') as f:
     data3 = json.load(f)
 
 # Streamlit app
